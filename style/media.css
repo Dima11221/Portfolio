@@ -1,0 +1,147 @@
+@media (max-width: 1080px) {
+
+    .container {
+        min-width: 480px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .hero {
+        gap: 40px;
+    }
+
+    .wrapper-port {
+        width: 250px;
+    }
+
+    .wrapper-list {
+        width: 250px;
+        align-items: center;
+    }
+
+    .df-align-center-justify-between {
+        justify-content: center;
+    }
+
+    .flex-start {
+        justify-content: center;
+    }
+
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .grid-container {
+        width: 400px;
+    }
+
+    .grid-position-work {
+        grid-column: 2;
+    }
+    
+    .grid-position-skill {
+        grid-column: 2;
+        grid-row: 2;
+    }
+    
+    .grid-position-dop-info {
+        grid-column: 2;
+        grid-row: 3;
+    }
+    
+    .grid-position-programms {
+        width: 350px;
+        grid-column: 2;
+        grid-row: 4;
+    }
+
+    .footer-wrapper {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .container {
+        width: 100%;;
+        margin: 0 auto;
+        justify-content: center;
+        text-align: center;
+        /* margin: 30px 0; */
+    }
+
+    .main {
+        width: 768px;
+        padding: 20px;
+    }
+
+    .df-align-center-justify-between {
+        flex-direction: column;
+    }
+
+    .Connect-wrapper {
+        width: 560px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        justify-items: center;
+        gap: 19px;
+    }
+    
+    .Comment {
+        width: 540px;
+        padding: 15px 300px 100px 28px
+    }
+    
+    .margin-top-btn {
+        margin-top: 20px;
+    }
+    
+}
+
+@media (max-width: 480px) {
+
+    .hero-wrapper {
+        margin: 0 auto;
+    }
+
+    .container {
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .wrapper-list {
+        display: none;
+    }
+
+    .big-image {
+        width: 400px;
+        height: 400px;
+    }
+
+    .hero-wrapper-list {
+        width: 350px;
+    }
+
+    .wrapper-list {
+        display: none;
+    }
+
+    .Connect-wrapper {
+        width: 350px;
+    }
+    .input-area {
+        width: 180px;
+    }
+    .Comment {
+        width: 450px;
+        padding: 15px 300px 100px 28px
+    }
+    .df-align-center-justify-between {
+        flex-direction: column;
+    }
+
+    .margin-top-btn {
+        margin-top: 20px;
+    }
+}

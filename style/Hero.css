@@ -1,0 +1,145 @@
+.header-wrapper {
+    gap: 40px;
+}
+
+.hero-wrapper {
+    background-color: var(--grey);
+}
+
+.intro-name {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.intro-info-text {
+    width: 400px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.big-image {
+    width: 600px;
+    height: 600px;
+    border-radius: 60px;
+}
+
+.hero-wrapper-list {
+    width: 500px;
+}
+
+.main-info {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.work-list {
+    margin-left: 0;
+    padding-left: 20px;
+}
+
+.grid-position-work {
+    grid-column: 1 / span 2;
+}
+
+.bord-HR {
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--light-grey);
+}
+
+.grid-container {
+    width: 350px;
+}
+
+.grid-position-skill {
+    width: 350px;
+    grid-row: 1;
+    grid-column: 5 / span 8;
+}
+
+.grid-position-dop-info {
+    grid-row: 1;
+    grid-column: 9 / span 12;
+}
+
+.grid-position-programms {
+    grid-column: 1 / span 12;
+    grid-row: 2;
+}
+
+.programms-flex {
+    justify-content: space-evenly
+}
+
+.img {
+    width: 64px;
+    height: 64px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid-position-self {
+    grid-row: 3;
+
+}
+
+
+/* Connect */
+
+.Connect {
+    margin-bottom: 40px;
+}
+
+.Connect-wrapper {
+    width: 580px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    justify-items: center;
+    gap: 19px;
+}
+
+.input-area {
+    width: 251px;
+    height: 60px;
+    border: 1px solid #DADADA;
+    border-radius: 50px;
+    opacity: 70%;
+    padding-left: 16px;
+}
+
+.wrapper-form {
+    width: 251px;
+    align-items: center;
+}
+
+.grid-position-E-mail {
+    grid-row: 2;
+}
+
+.grid-position-Number {
+    grid-row: 2;
+}
+
+.grid-position-Comment {
+    grid-column: 1 / span 2;
+    grid-row: 3 / span 2;
+}
+
+.Comment {
+    max-width: 550px;
+    max-height: 200px;
+    border: 1px solid #DADADA;
+    border-radius: 20px;
+    opacity: 70%;
+    padding: 15px 400px 100px 28px;
+}
+
+.grid-position-button {
+    grid-column: 1 / span 2;
+    grid-row: 5;
+}

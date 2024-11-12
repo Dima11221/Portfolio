@@ -1,0 +1,12 @@
+/* @import "./normalize.css";
+@import "./font.css";
+@import "./header.css";
+@import "./Hero.css"; */
+
+@import url(./normalize.css);
+@import url(./font.css);
+@import url(./global.css);
+@import url(./header.css);
+@import url(./Hero.css);
+@import url(./footer.css);
+@import url(./media.css);

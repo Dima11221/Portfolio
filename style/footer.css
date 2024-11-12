@@ -1,0 +1,21 @@
+.footer {
+    border-top: 1px solid var(--light-grey);
+    margin-bottom: 40px;
+}
+
+.contact-info {
+    width: 190px;
+    gap: 4px;
+}
+
+.contact-img {
+    width: 20px;
+    height: 20px;
+}
+
+.contact-info-item {
+    width: 250px;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--black);
+}

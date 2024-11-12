@@ -1,0 +1,161 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+a {
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+body {
+    min-width: 320px;
+    word-break: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* global */
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.btn-reset {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+:root {
+    --white-color: #fff;
+    --light-grey: #2A2F37;
+    --blue: #3f5bbe;
+    --grey: #2A2F370F;
+    --black: #000000;
+}
+
+.df-align-center-justify-between {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.flex-start {
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.flex-column-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    align-items: start;
+    /*justify-items: center;*/
+    /*gap: 40px;*/
+}
+
+.btn-styles {
+    padding: 8px 16px;
+    color: var(--white-color);
+    background-color: var(--blue);
+}
+
+.header-link {
+    font-size: 16px;
+    font-style: normal;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    /* align-items: center; */
+}
+
+.element-decoration:hover {
+    text-decoration: underline;
+}
+
+.padding-top-bottom {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.margin-top-btn {
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+}
+
+.contact-info-item {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.contact-info-item:hover {
+    color: var(--blue);
+}
+
+.contact-info-item:hover {
+    color: var(--blue);
+    transition: all 0.2s ease-in-out;
+}
+
+.block-btn {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--white-color);
+    background-color: var(--black);
+    border-radius: 50px;
+}
+
+.block-btn-form {
+    width: 230px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+.block-btn-form:hover {
+    background-color: var(--blue);
+    transition: all 0.2s ease-in-out;
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 300;
+}
